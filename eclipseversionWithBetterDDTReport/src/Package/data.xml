@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  	<test name="Test1">
+	  <parameter name = "InputA" value="5"/>
+	  <parameter name = "InputB" value="5"/>
+	  <parameter name = "InputC" value="25"/>
+	    <classes>
+	      <class name="Package.CalculatorTests"/>
+	    </classes>
+  	</test> <!-- Test -->
+    <test name="Test2">
+	  <parameter name = "InputA" value="4"/>
+	  <parameter name = "InputB" value="3"/>
+	  <parameter name = "InputC" value="12"/>
+	    <classes>
+	      <class name="Package.CalculatorTests"/>
+	    </classes>
+  	</test> <!-- Test -->
+    <test name="Test3">
+	  <parameter name = "InputA" value="8"/>
+	  <parameter name = "InputB" value="2"/>
+	  <parameter name = "InputC" value="16"/>
+	    <classes>
+	      <class name="Package.CalculatorTests"/>
+	    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
